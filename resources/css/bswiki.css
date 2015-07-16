@@ -1,0 +1,171 @@
+@font-face {
+    font-family: lvnm;
+    src: url('../fonts/lvnm.ttf');
+}
+
+html{
+	font-family:lvnm;
+}
+
+body{
+	font-size:15px;
+	line-height:18px;
+	font-family:lvnm;
+	padding-top:50px;
+	/* @embed */
+	background:url(../images/blue_stc.jpg);
+}
+
+.container{
+	width:90%;
+	background-color: #fff;
+}
+
+.side-menu-toggle{
+	text-transform:uppercase;
+}
+
+.sub-side-menu{
+	display:none;
+	text-transform:uppercase;
+}
+
+
+.left-margin-zero{
+	margin-left:0;
+}
+
+.row{
+	margin:1% 0%;
+}
+
+.col-xm-*, .col-sm-*, .col-md-*, .col-lg-*{
+	margin:1%;
+	padding: 1%;
+}
+
+footer{
+	display:inline-flex;
+}
+
+#firstHeading{
+	margin-top:0;
+}
+
+#myNavbar{
+	background:none repeat scroll 0 0 #0099CC;
+	margin-bottom:0;
+	border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+	font-weight:bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background: none repeat scroll 0 0 #003399;
+	color:#E6E6FA;
+}
+
+.navbar-brand{
+	padding-top:0;
+}
+
+.navbar-brand img{
+	max-height:50px;
+}
+
+.nav-pills > li{
+	float: none;
+}
+
+#rightsidebar iframe{
+	width:240px;
+	height:720px;
+}
+
+#maincontent{
+	border-right:1px #194517 solid;
+	border-left: 1px #194517 solid;
+}
+
+#search-div{
+	margin-bottom:3px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #003399;
+  color: #fff;
+}
+
+#top {
+  background-color: #ef7126;
+  bottom: 20px;
+  color: #473e3f;
+  display: none;
+  font-size: 12px;
+  opacity: 0.5;
+  padding: 10px;
+  position: fixed;
+  right: 15px;
+  text-decoration: none;
+}
+
+#top:hover {
+    background-color: #dddddd;
+    opacity: 0.80;
+}
+
+.dropdown .side-menu-toggle:hover{
+	background:#0099CC;
+}
+
+.dropdown-menu li a:hover{
+	background:#DBEEF7;
+}
+
+#maincontent a:hover {
+  background: #DBEEF7 none repeat scroll 0 0;
+  color: #000;
+  padding: 3px 0;
+}
+
+#toolbar img{
+display:inline;
+}
+
+#preftoc {
+  border-bottom: 1px solid #0099CC;
+  display: inline-flex;
+  list-style-type: none;
+  margin-left: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+#preftoc li{
+	padding:3px;
+	margin:3px;
+}
+
+#preftoc .selected a {
+  background: #003399 none repeat scroll 0 0;
+  color: #fff;
+  padding: 10px 0px 0 0;
+}
+
+#em-logo{
+/* @embed */
+background-image:url(../images/emlogo.png);
+background-size: 50px auto;
+margin-left: 10px;
+min-width: 50px;
+
+}
+
+td{
+padding:4px;
+}

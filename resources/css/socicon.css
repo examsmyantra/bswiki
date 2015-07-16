@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'socicon';
+    src: url('../fonts/socicon-webfont.eot');
+    src: url('../fonts/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon-webfont.woff') format('woff'),
+         url('../fonts/socicon-webfont.woff2') format('woff2'),
+         url('../fonts/socicon-webfont.ttf') format('truetype'),
+         url('../fonts/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
+.socicon {
+	font-family: 'socicon' !important;
+	font-weight:normal !important;
+	font-size:24px !important;
+}
+
+.socicon:hover{
+	background:#e7e7e7 !important;
+}
+
+.facebook:hover{
+	color:#6D84B4 !important;	
+}
+
+.youtube:hover{
+	color:#B61E18 !important;
+}
+
+.twitter:hover{
+	color:#55ACEE !important;
+}
+
+.paypal:hover{
+	color:#C88039 !important;
+}
+
+.google:hover{
+	color:#DD4B39 !important;
+}
+
+.email:hover{
+	color:#DA3838 !important;
+}
+

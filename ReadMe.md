@@ -16,5 +16,8 @@ $wgBSWfblink = "https://www.facebook.com/ExamsMyantra";
 
 and similarly for other social networks, there is limited number of social links place, others are listed below.
 
-$wgBSWgooglelink, $wgBSWtwitterlink, $wgBSWyoutubelink, $wgBSWemaillink.
+$wgBSWgooglelink = "URL to Google plus";
+$wgBSWtwitterlink = "twitter profile";
+$wgBSWyoutubelink = "youtube channel link";
+$wgBSWemaillink" = "email@example.com";
 ======================================================

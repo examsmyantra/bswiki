@@ -17,8 +17,8 @@ $wgExtensionCredits['skin'][] = array(
 	'name' => 'BS Wiki',
 	'namemsg' => 'bswiki',
 	'version' => '1.0.0',
-	'url' => 'https://www.examsmyantra.com',
-	'author' => '[https://www.examsmyantra.com|Mayank Tiwari, Rishav Chhajer for ExamsMyantra]',
+	'url' => 'https://www.mediawiki.org/wiki/Skin:Bswiki',
+	'author' => '[https://twitter.com/tiwarimayank24 Mayank Tiwari], [https://twitter.com/Rishavchhajer Rishav Chhajer], [https://twitter.com/examsmyantra ExamsMyantra]',
 	'descriptionmsg' => 'bswiki-desc',
 	'license' => 'MIT'
 );

@@ -29,14 +29,22 @@ $wgAutoloadClasses['SkinBSWiki'] = __DIR__.'/BSWiki.skin.php';
 $wgMessagesDirs['BSWiki'] = __DIR__.'/i18n';
 
 $wgResourceModules['skins.bswiki.style'] =  array(
-	'styles' => array('bswiki/resources/css/bootstrap.min.css','bswiki/resources/css/socicon.css','bswiki/resources/css/bswiki.css'),
+	'position' => 'top',
+	'styles' => array(
+		'bswiki/resources/css/bootstrap.min.css',
+		'bswiki/resources/css/socicon.css',
+		'bswiki/resources/css/bswiki.less'
+	),
 	'remoteBasePath' => &$GLOBALS['wgStylePath'],
 	'localBasePath' => &$GLOBALS['wgStyleDirectory']
 );
 
 $wgResourceModules['skins.bswiki.js'] = array(
-	'scripts' => array('bswiki/resources/js/bootstrap.min.js','bswiki/resources/js/bswiki.js'),
-	'target' => 'head',
+	'position' => 'top',
+	'scripts' => array(
+		'bswiki/resources/js/bootstrap.min.js',
+		'bswiki/resources/js/bswiki.js'
+	),
 	'remoteBasePath' => &$GLOBALS['wgStylePath'],
 	'localBasePath' => &$GLOBALS['wgStyleDirectory']
 );
